@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby -w
 
-DEBUG = true
+DEBUG = false
 def log(msg) puts msg if DEBUG; end
 
 dir = (ARGV[0][0] == File::SEPARATOR[0]) ? ARGV[0] : File.expand_path(File.join(File.dirname(__FILE__), ARGV[0]))
